@@ -2,8 +2,16 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 const FormComponent = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000});
+  
+  },[]);
   const [formData, setFormData] = useState({
     name: '',
     jobCategory: '',
@@ -49,7 +57,7 @@ const FormComponent = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" data-aos="fade-right" data-aos-anchor-placement="">
       <div className="row">
       <div className="col-md-6 form-container-fluid">
           <Form onSubmit={handleSubmit}>

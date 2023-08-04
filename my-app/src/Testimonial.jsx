@@ -1,9 +1,17 @@
 import React from 'react';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Testimonials = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000});
+  
+  },[]);
   return (
     <section style={{ color: '#000', backgroundColor: '#f3f2f2' }}>
-      <div className="container py-5">
+      <div className="container py-5"
+      data-aos="fade-up" data-aos-anchor-placement="">
         <div className="row d-flex justify-content-center">
           <div className="col-md-10 col-xl-8 text-center">
             <h3 className="fw-bold mb-4">Testimonials</h3>
