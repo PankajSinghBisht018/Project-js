@@ -1,4 +1,4 @@
-// FormComponent.jsx
+// Component.jsx
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 
-const FormComponent = () => {
+const Component = () => {
   useEffect(()=>{
     Aos.init({duration:3000});
   
@@ -157,4 +157,4 @@ const FormComponent = () => {
   );
 };
 
-export default FormComponent;
+export default Component;
