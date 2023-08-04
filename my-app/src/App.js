@@ -3,14 +3,17 @@ import Navbar from './Navbaar';
 import CarouselComponent from './Carousel';
 import HomeSection from './Homesection';
 import Testimonials from './Testimonial';
+import Footer from './Footer';
 
 function App() {
   return (
     <>
  <Navbar />
- <CarouselComponent />
+
  <HomeSection/>
+  <CarouselComponent />
  <Testimonials/>
+ <Footer/>
 
     </>
   );

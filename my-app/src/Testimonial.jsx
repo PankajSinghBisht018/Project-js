@@ -21,7 +21,7 @@ const Testimonials = () => {
               <div className="card-body py-4 mt-2">
                 <div className="d-flex justify-content-center mb-4">
                   <img
-                    src="/images/man3.jpg"
+                    src="/image/man3.jpg"
                     className="rounded-circle shadow-1-strong"
                     width="100"
                     height="100"
@@ -61,7 +61,7 @@ const Testimonials = () => {
               <div className="card-body py-4 mt-2">
                 <div className="d-flex justify-content-center mb-4">
                   <img
-                    src="/images/man2.jpg"
+                    src="/image/man2.jpg"
                     className="rounded-circle shadow-1-strong"
                     width="100"
                     height="100"
@@ -100,7 +100,7 @@ const Testimonials = () => {
               <div className="card-body py-4 mt-2">
                 <div className="d-flex justify-content-center mb-4">
                   <img
-                    src="/images/man1.jpg"
+                    src="/image/man1.jpg"
                     className="rounded-circle shadow-1-strong"
                     width="100"
                     height="100"
