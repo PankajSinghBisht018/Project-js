@@ -4,15 +4,18 @@ import CarouselComponent from './Carousel';
 import HomeSection from './Homesection';
 import Testimonials from './Testimonial';
 import Footer from './Footer';
+import FormComponent from './Form';
 
 function App() {
   return (
     <>
  <Navbar />
-
- <HomeSection/>
-  <CarouselComponent />
+<CarouselComponent />
+ <HomeSection/>  
+ 
+<FormComponent/>
  <Testimonials/>
+
  <Footer/>
 
     </>
